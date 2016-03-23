@@ -12,7 +12,7 @@ Fonts are fun to make, and Sugar needs a font editor activity so learners can ma
 
 Each year Google offers paid summer jobs to University students around the world with the Google Summer of Code (GSoC) programme, and a slot is available this summer for a student to develop a Sugar font editor. Students are expected to spend about 40 hours a week working on the project during a 3 month coding period (so if you already have an internship, another summer job, or plan to be gone on vacation for more than a week during that time, GSoC is not the right program for you this year.) The stipend paid for successful completion is US $5,500. 
 
-Lots of free software Python libraries already exist so this project offers the possibility to make real progress: Shipping a sugar activity to draw letters, export fonts, and then use them immediately in other activities like write or paint. Stretch goals could include color fonts, drawing letters with turtle-art, or inventing algorithms to automate the repetitive aspects of typeface design.
+Lots of free software Python libraries already exist so this project offers the possibility to make real progress: Shipping a sugar activity to draw letters, export fonts, and then use them immediately in other activities like write or paint. Stretch goals could include color fonts, drawing letters with expanded strokes or Spiro splines or turtle-art, and inventing algorithms to automate the repetitive aspects of typeface design.
 
 To learn more, send a short email to Dave Crossland (dcrossland@google.com) with subject "Sugar Fonts Proposal" and include your resume, github username, and tell Dave why you are interested in this opportunity. 
 
@@ -36,3 +36,30 @@ To learn more, send a short email to Dave Crossland (dcrossland@google.com) with
 - https://developers.google.com/open-source/gsoc/faq
 - http://write.flossmanuals.net/gsocstudentguide/writing-a-proposal/
 - https://summerofcode.withgoogle.com/student-signup/
+
+## Suggestions From Dave
+
+I don't have any preconceptions about what a Sugar Activity for drawing and editing fonts should be like. 
+I described some of the Big Ideas ([0]) of font editors in the Glyphr Studio web based font editor ([1].)
+
+For drawing, I think that a spiro ([2] [3] [4] [5]) + curve offsetting ([6]) approach as can be done with inkscape ([7] [8]) (and used in Metapolator, FontArk, and LetterInk as discussed recently on the #1 font design forum ([9])) could be interesting. 
+
+But this would be a stretch goal; before getting to that point, you'd need to create the most basic font editor possible - drawing with regular PostScript bezier outlines - and get the whole editor working end to end. For that, TruFont ([10]) is a great model to follow in terms of functionality, and base font data libraries, but since it is PyQt5 based its UI can not be used directly. 
+
+In fact, making a simple Font Manager activity so that users can select, share (upload + download), install, and use fonts would likely be a big milestone and form a base for a font editor activity to build upon ([11] [12] [13] [14].)
+
+[0]: https://en.wikipedia.org/wiki/Big_Idea_(marketing)
+[1]: https://github.com/mattlag/Glyphr-Studio/issues/94
+[2]: http://raph.levien.com/spiro/ 
+[3]: http://raph.levien.com/phd/phd.html 
+[4]: https://www.youtube.com/watch?v=-ekZJ9h9PXU 
+[5]: http://fontly.com/sandbox/spiro.html 
+[6]: https://pomax.github.io/bezierinfo/#offsetting
+[7]: https://www.youtube.com/watch?v=3OaLZuFZxdk 
+[8]: https://www.youtube.com/watch?v=yy2fxxqEZ-A
+[9]: http://typedrawers.com/discussion/1463/how-skeleton-based-type-design-could-shake-up-digital-type-design-workflows
+[10]: https://github.com/trufont/
+[11]: https://en.wikipedia.org/wiki/Font_management_software 
+[12]: https://www.google.com/fonts
+[13]: http://fontmatrix.be
+[14]: https://fontmanager.github.io
