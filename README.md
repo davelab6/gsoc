@@ -1,2 +1,3 @@
-# gsoc
-Files by davelab6 related to Google Summer of Code 
+# Google Summer of Code files by @davelab6
+
+* [2016 Call For Proposals: Sugar Font Editor Activity](2016-sugar-call-for-proposals.md)
