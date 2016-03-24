@@ -46,7 +46,9 @@ For drawing, I think that a spiro ([2] [3] [4] [5]) + curve offsetting ([6]) app
 
 But this would be a stretch goal; before getting to that point, you'd need to create the most basic font editor possible - drawing with regular PostScript bezier outlines - and get the whole editor working end to end. For that, TruFont ([10]) is a great model to follow in terms of functionality, and base font data libraries, but since it is PyQt5 based its UI can not be used directly. 
 
-In fact, making a simple Font Manager activity so that users can select, share (upload + download), install, and use fonts would likely be a big milestone and form a base for a font editor activity to build upon ([11] [12] [13] [14].)
+In fact, making a simple Font Manager activity so that users can select, share (upload + download), install, and use fonts would likely be a big milestone and form a base for a font editor activity to build upon ([11] [12] [13] [14].) There are already two similar activities ([15] [16].)
+
+Other improvements to the font related parts of the Sugar Platform may also be needed ([18])
 
 [0]: https://en.wikipedia.org/wiki/Big_Idea_(marketing)
 [1]: https://github.com/mattlag/Glyphr-Studio/issues/94
@@ -63,3 +65,7 @@ In fact, making a simple Font Manager activity so that users can select, share (
 [12]: https://www.google.com/fonts
 [13]: http://fontmatrix.be
 [14]: https://fontmanager.github.io
+[15]: https://activities.sugarlabs.org/en-US/sugar/addon/4669
+[16]: https://github.com/godiard/favorite-fonts-activity
+[17]: https://github.com/godiard/favorite-fonts-activity
+[18]: https://wiki.sugarlabs.org/go/Features/Font_configuration
