@@ -48,7 +48,7 @@ But this would be a stretch goal; before getting to that point, you'd need to cr
 
 In fact, making a simple Font Manager activity so that users can select, share (upload + download), install, and use fonts would likely be a big milestone and form a base for a font editor activity to build upon ([11] [12] [13] [14].) There are already two similar activities ([15] [16].)
 
-Other improvements to the font related parts of the Sugar Platform may also be needed ([18])
+Other improvements to the font related parts of the Sugar Platform may also be needed ([17] [18])
 
 [0]: https://en.wikipedia.org/wiki/Big_Idea_(marketing)
 [1]: https://github.com/mattlag/Glyphr-Studio/issues/94
@@ -67,5 +67,5 @@ Other improvements to the font related parts of the Sugar Platform may also be n
 [14]: https://fontmanager.github.io
 [15]: https://activities.sugarlabs.org/en-US/sugar/addon/4669
 [16]: https://github.com/godiard/favorite-fonts-activity
-[17]: https://github.com/godiard/favorite-fonts-activity
+[17]: https://wiki.sugarlabs.org/go/The_Undiscoverable
 [18]: https://wiki.sugarlabs.org/go/Features/Font_configuration
